@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.button:hover{
+    background-color: tomato;
+    color: black;
+}
