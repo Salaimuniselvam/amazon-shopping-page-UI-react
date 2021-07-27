@@ -1,0 +1,19 @@
+{
+  "name": "my-posts",
+  "version": "1.0.0",
+  "description": "sample project for backend using Swagger Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salaimuniselvam/my-posts-swaggerApi.git"
+  },
+  "author": "salaimuniselvam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salaimuniselvam/my-posts-swaggerApi/issues"
+  },
+  "homepage": "https://github.com/Salaimuniselvam/my-posts-swaggerApi#readme"
+}
