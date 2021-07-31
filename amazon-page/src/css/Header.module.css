@@ -1,0 +1,16 @@
+.header {
+  box-sizing: border-box;
+  padding:12px 48px 5px;
+  width:100%;
+  text-align:center;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#282c34;
+  overflow: hidden;
+}
+.header > img {
+ width:100px;
+}
+
+

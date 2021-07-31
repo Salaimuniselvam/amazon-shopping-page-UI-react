@@ -1,0 +1,44 @@
+.leftSidePage {
+  width: 100%;
+  position: relative;
+}
+.timeZone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+.HeartBeat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+.HeartBeat > i {
+  margin-top: 16px;
+  color: red;
+  animation: heartpump 1s infinite;
+}
+.count {
+  margin-top: 16px;
+}
+@keyframes heartpump {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.leftSidePage > img {
+  width: 100%;
+}

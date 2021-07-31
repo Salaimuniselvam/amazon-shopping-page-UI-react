@@ -1,0 +1,8 @@
+.mainContainer{
+  display:flex;
+  margin: 24px;
+  padding:4% 16%;
+  box-sizing: border-box;
+  width:100%;
+  align-items: center;
+}
