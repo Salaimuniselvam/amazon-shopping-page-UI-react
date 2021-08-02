@@ -1,10 +1,11 @@
 import React from 'react';
-import classes from ".././css/Header.module.css";
+import Headerclasses from ".././css/Header.module.css";
+import logo from ".././amazon.png";
 
-const Header = (props) => {
+const Header = () => {
   return(
-    <div className={classes.header}>
-      <img src="https://i.dlpng.com/static/png/197684_preview.png" alt="amazon logo here"/>
+    <div className={Headerclasses.header} >
+       <img src={logo} alt="amazon logo here" />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 .rightSidePage{
+  box-sizing: border-box;
   margin-top:0;
   margin-bottom:16px;
   width:100% ;
@@ -29,12 +30,12 @@
 .selectedProductImage{
   border:2px solid teal;
 }
-.buttons, .buttonsBuy{
+.buttons{
   display:inline-block;
   padding:0.46em 1.6em;
   border:0.1em solid #000000;
   margin:1em 0.2em 0.2em 0;
-  border-radius:0.44em;
+  border-radius: 0.6rem;
   box-sizing: border-box;
   text-decoration:none;
   font-weight:300;
@@ -49,4 +50,23 @@
   color:#000000;
   border-color:#FFFFFF;
   background-color:#8d8080;
+}
+.buttonsBuy{
+  display:inline-block;
+  padding:0.46em 1.6em;
+  border-radius: 0.6rem;
+  border:0.1em solid #000000;
+  margin:1em 0.2em 0.2em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:black;
+  background-color:#d6b8b8;
+  font-weight:500;
+  text-align:center;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.selectedbutton{
+  background-color: rgb(143, 119, 119);
 }

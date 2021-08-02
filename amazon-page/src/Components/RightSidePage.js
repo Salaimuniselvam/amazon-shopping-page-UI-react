@@ -20,12 +20,14 @@ const rightSidePage = (props) => {
   });
 
   const featureLists = props.data.featureList.map((item,position) => {
-    const classArray = [classes.buttons];
-    if(position === 0) {
-      classArray.push(classes.buttons)
+    const classArray = [classes.buttons]
+    if(position === 1 && props.showHeartBeatSection) {
+      classArray.push(classes.selectedbutton);
+    }else if(position === 0 && !props.showHeartBeatSection) {
+      classArray.push(classes.selectedbutton);
     }
     return (
-      <button key={position} className={classArray.join(' ')}>{item}</button>
+      <button onClick={()=>props.onClickButton(position)} classkey={position} className={classArray.join(' ')}>{item}</button>
         );
     });
   return (
